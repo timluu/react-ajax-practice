@@ -5,10 +5,10 @@ var UserSubmit = (props) => {
     <form>
       <div>
         <label>Name:</label>
-        <input id="name" type="text"/>
+        <input id="name" type="text" onChange={props.onChange}/>
         <label>Message:</label>
-        <input id="message" type="text"/>
-        <input type="submit" value="Send"/>
+        <input id="message" type="text" onChange={props.onChange}/>
+        <input type="submit" value="Send Message" onClick={props.onClick}/>
       </div>
     </form> 
   ) 
