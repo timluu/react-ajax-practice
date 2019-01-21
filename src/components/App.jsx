@@ -54,14 +54,6 @@ class App extends React.Component {
   }
 
   /*
-    Purpose: once the DOM renders, send an AJAX request
-    to get information from the server.
-  */
-  // componentDidMount() {
-  //   this.getAJAXRequest();
-  // }
-
-  /*
     Purpose: combine all functional components of the app
     together and render them to the DOM to be viewed.
   */
