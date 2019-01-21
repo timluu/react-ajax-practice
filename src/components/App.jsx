@@ -1,11 +1,11 @@
 import React from 'react';
+import UserSubmit from './UserSubmit.jsx';
 
 class App extends React.Component {
 
   constructor(props) {
     super(props);
   }
-
 
   /*
     Purpose: Combine all functional components of the app
@@ -16,11 +16,10 @@ class App extends React.Component {
       <div>
         <div>
           Server Responses
-          <div>server responses go here</div>
+          <div>Response Goes Here!</div>
         </div>
         <div>
-          Submissions
-          <div>namebox</div><div>messagebox</div>
+          <UserSubmit />
         </div>
       </div>
     )
